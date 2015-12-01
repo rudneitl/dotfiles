@@ -2,6 +2,12 @@
 alias ls='ls -G'
 alias ll='ls -lart'
 
+## ruby
+alias be='bundle exec'
+alias bers='be rails s'
+alias berc='be rails c'
+alias bersp='be rspec spec'
+
 # Reset
 Color_Off="\[\033[0m\]"       # Text Reset
 
