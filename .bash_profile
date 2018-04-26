@@ -1,6 +1,8 @@
 ## alias
 alias ls='ls -G'
 alias ll='ls -lart'
+alias nibbler0001='ssh -i ~/.ssh/id_rsa_gateway _rlucas@nibbler0001.linux.locaweb.com.br'"
+alias nibbler0002='ssh -i ~/.ssh/id_rsa_gateway _rlucas@nibbler0002.linux.locaweb.com.br'"
 
 ## ruby
 alias be='bundle exec'
@@ -115,5 +117,10 @@ fi
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH:~/bin"
+
+### Add redis
+export PATH="$PATH:~/Workspace/docker/redis/redis-3.2.8/src"
+
+export PATH="/usr/local/bin;$PATH"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
