@@ -1,3 +1,3 @@
 # DotFiles
 
-This are my dotfiles to Mac OS.
+These are my dotfiles to Mac OS.
